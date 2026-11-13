@@ -42,17 +42,17 @@ This separates language understanding from game-rule enforcement.
 
 ```text
 AI-Escape-Room/
-â”œâ”€â”€ ai/
-â”œâ”€â”€ assets/
-â”œâ”€â”€ game/
-â”œâ”€â”€ tests/
-â”œâ”€â”€ .env.example
-â”œâ”€â”€ .gitignore
-â”œâ”€â”€ app.py
-â”œâ”€â”€ app_v1.py
-â”œâ”€â”€ app_v2.py
-â”œâ”€â”€ requirements.txt
-â””â”€â”€ README.md
+ ai/
+ assets/
+ game/
+ tests/
+ .env.example
+ .gitignore
+ app.py
+ app_v1.py
+ app_v2.py
+ requirements.txt
+ README.md
 ```
 
 ## Installation

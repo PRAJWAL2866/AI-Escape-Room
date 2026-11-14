@@ -13,13 +13,13 @@ The player is trapped inside a mysterious forgotten library and must investigate
 - Investigate the painting.
 - Discover the final exit code and escape.
 
-## Version 1 â€” Conversational AI
+## Version 1  Conversational AI
 
 Version 1 uses Gemini as the Game Master. The player interacts through a Streamlit chat interface, and Gemini responds to player actions.
 
 **Limitation:** Game rules are primarily handled through AI-generated conversation, making progression and puzzle validation less deterministic.
 
-## Version 2 â€” Structured Game Engine
+## Version 2  Structured Game Engine
 
 Version 2 introduces a modular Python game engine.
 
@@ -42,17 +42,17 @@ This separates language understanding from game-rule enforcement.
 
 ```text
 AI-Escape-Room/
-â”œâ”€â”€ ai/
-â”œâ”€â”€ assets/
-â”œâ”€â”€ game/
-â”œâ”€â”€ tests/
-â”œâ”€â”€ .env.example
-â”œâ”€â”€ .gitignore
-â”œâ”€â”€ app.py
-â”œâ”€â”€ app_v1.py
-â”œâ”€â”€ app_v2.py
-â”œâ”€â”€ requirements.txt
-â””â”€â”€ README.md
+ ai/
+ assets/
+ game/
+ tests/
+ .env.example
+ .gitignore
+ app.py
+ app_v1.py
+ app_v2.py
+ requirements.txt
+ README.md
 ```
 
 ## Installation
@@ -110,7 +110,7 @@ Open http://localhost:8502.
 
 ## Architecture
 
-### Version 1 â€” AI-driven conversation
+### Version 1  AI-driven conversation
 
 ```mermaid
 flowchart TD
@@ -122,7 +122,7 @@ flowchart TD
     B --> A
 ```
 
-### Version 2 â€” Validated game engine
+### Version 2  Validated game engine
 
 ```mermaid
 flowchart TD
